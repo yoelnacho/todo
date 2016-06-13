@@ -29,6 +29,11 @@ angular
         controller: 'AboutCtrl',
         controllerAs: 'about'
       })
+      .when('/todos', {
+        templateUrl: 'views/todos.html',
+        controller: 'TodosCtrl',
+        controllerAs: 'todos'
+      })
       .otherwise({
         redirectTo: '/'
       });
