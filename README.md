@@ -1,12 +1,18 @@
 # todo
 
-This project is generated with [yo angular generator](https://github.com/yeoman/generator-angular)
-version 0.15.1.
+Este proyecto es generado con [yo angular generator](https://github.com/yeoman/generator-angular)
+versión 0.15.1.
 
 ## Build & development
 
-Run `grunt` for building and `grunt serve` for preview.
+correr `grunt` construir y `grunt serve` para previsualizar la aplicación.
 
 ## Testing
 
-Running `grunt test` will run the unit tests with karma.
+correr `grunt test` se correrá el 'unit test' con karma.
+
+## Comandos yeoman
+
+- crear controlador - `yo angular:controller nombre_controlador` crea un controller.
+- crear vista - `yo angular:view nombre_vista` crea una view.
+- crear route - `yo angular:route nombre_route` crear una vista, un controlador y su url.
